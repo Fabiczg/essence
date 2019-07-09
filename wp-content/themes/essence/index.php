@@ -112,16 +112,13 @@
 						</div>
 						<h2>OUR INTRODUCTORY VIDEO</h2>
 						<p >Learn more about us, its only 30mins</p>
-
 					</div>
-
 				</div>
 			</div>
 		</div>
 	</section>
 		<!-- FIN video -->
 		<?php get_template_part('gallery') ?>
-
 		<!-- CONTADOR  -->
 	<section class="contador .d-none .d-xl-block">
 		<div class="wrapper">
@@ -130,19 +127,16 @@
 				<h2 class="timer count-title count-number" data-to="300" data-speed="1500"></h2>
 				<p class="count-text ">Faster</p>
 			</div>
-
 			<div class="counter col_fourth">
 				<i class="fa fa-coffee fa-2x"></i>
 				<h2 class="timer count-title count-number" data-to="1700" data-speed="1500"></h2>
 				<p class="count-text ">Cup of Coffee</p>
 			</div>
-
 			<div class="counter col_fourth">
 				<i class="fa fa-user-o fa-2x"></i>
 				<h2 class="timer count-title count-number" data-to="11900" data-speed="1500"></h2>
 				<p class="count-text ">Active Clients</p>
 			</div>
-
 			<div class="counter col_fourth end">
 				<i class="fa fa-heart-o fa-2x"></i>
 				<h2 class="timer count-title count-number" data-to="157" data-speed="1500"></h2>
@@ -152,5 +146,4 @@
 	</section>
 		<!-- FIN DEL CONTADOR  -->
 		<?php get_template_part('team') ?>
-
 <?php get_footer(); ?>

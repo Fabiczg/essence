@@ -11,7 +11,6 @@
           <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
           <div class="col-md-4 item-why">
             <div class="row why">
-
                 <div class="col-md-2 contend-icon2">
                   <?php $args = get_post_custom( $post_id); ?>
                   <i class="fa <?php echo $args['icon'][0]?>" aria-hidden="true"></i>
@@ -24,10 +23,6 @@
               </div>
             </div>
           <?php endwhile; ?>
-
-
-
-
       </div>
     </div>
 </section>

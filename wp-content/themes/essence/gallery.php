@@ -11,8 +11,6 @@
   <button class="filter" data-filter=".category-2">DEVELOPMENT</button>
   <button class="filter" data-filter=".category-3">PRINT</button>
 </div> -->
-
-
 <div id="Container" class="container">
     <div class="row">
       <?php $args = array( 'post_type' => 'Gallery', 'posts_per_page' => 5); ?>
@@ -28,10 +26,6 @@
       </div>
     <?php endwhile; ?>
     </div>
-
-
-
 </div>
-
 </section>
 <!-- Fin WORKS -->
